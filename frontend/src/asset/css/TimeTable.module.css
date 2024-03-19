@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
+.dayTab {
+  width: 100vw;
+  height: 6vh;
+  display: flex;
+  padding: 0 5vw;
+  margin-bottom: 3vh;
+  box-shadow: 0px 30px 30px -10px #eee;
+}
+.dayTab__btn {
+  border: 0;
+  width: 12vw;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #666;
+  text-shadow: 3px 2px 1px #eee;
+  background-color: #fff;
+}
+.dayTab__btn.active {
+  background-color: #ddd;
+  color: #000;
+}
+.dayTab__btn:hover {
+  animation: fadeIn 500ms both;
+}
+
+.timeTable {
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;
+  box-shadow: 0px 10px 60px 0px #ddd;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.timeTable thead tr {
+  height: 4vh;
+}
+.timeTable thead tr th {
+  border: 1px solid #eee;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.timeTable tbody tr {
+  height: 3.5vh;
+}
+.timeTable tbody tr td,
+.timeTable tbody tr th {
+  border: 1px solid #eee;
+  text-align: center;
+  font-weight: 200;
+}/*# sourceMappingURL=TimeTable.module.css.map */

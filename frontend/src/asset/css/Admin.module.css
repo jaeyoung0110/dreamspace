@@ -1,0 +1,175 @@
+@keyframes fadeIn {
+  0% {
+    background-color: #ccc;
+    color: fff;
+  }
+  100% {
+    background-color: #eee;
+    color: #aaa;
+  }
+}
+.container {
+  position: relative;
+  top: 5vh;
+  width: 80vw;
+  height: 75vh;
+  margin: auto;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+}
+.container .teachersTab {
+  width: 70vw;
+  height: 5vh;
+  display: flex;
+}
+.container .teachersTab button {
+  border: 0;
+  width: 70px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #aaa;
+  border-radius: 4px 12px 0 0;
+}
+.container .teachersTab button.active {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  background-color: #fff;
+  color: #000;
+}
+.container .teachersTab button.inactive {
+  position: relative;
+  top: 0.5vh;
+  height: 4.5vh;
+}
+.container .teachersTab button.inactive:hover {
+  animation: fadeIn 200ms both;
+}
+.container .selectDate {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+  padding: 5px;
+}
+
+.journal {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-flow: column nowrap;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 30px 0px #ddd;
+}
+.journal input[readOnly] {
+  border: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+.journal__header {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 10vh;
+}
+.journal__main {
+  height: 50vh;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.journal__footer {
+  height: 10vh;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px 20px;
+}
+.journal__details {
+  width: 80%;
+  height: 100%;
+}
+.journal__details > textarea {
+  margin-top: 6px;
+  width: 100%;
+  height: 70%;
+}
+.journal__btnSubmit {
+  position: relative;
+  margin-top: 26px;
+  height: 70%;
+  width: 20%;
+}
+
+.journal__date {
+  width: 25%;
+  border-right: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.journal__name {
+  width: 25%;
+  border-right: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.journal__workHour {
+  width: 50%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.journal__workHour > div:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.journal__workHour > div:last-child > input {
+  width: 50%;
+}
+
+.journal__main {
+  width: 100%;
+}
+.journal__main > table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0px;
+}
+.journal__main > table > thead > tr > th {
+  border: 1px solid #ddd;
+  margin: 0;
+}
+.journal__main > table > thead > tr > th:first-child {
+  width: 10%;
+  border-left: 0;
+}
+.journal__main > table > thead > tr > th:nth-child(2) {
+  width: 10%;
+}
+.journal__main > table > thead > tr > th:nth-child(3) {
+  width: 15%;
+}
+.journal__main > table > thead > tr > th:last-child {
+  border-right: 0;
+}
+.journal__main > table > tbody > tr > td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.journal__main > table > tbody > tr > td > input {
+  width: 100%;
+  height: 100%;
+}
+.journal__main > table > tbody > tr > td:first-child {
+  border-left: 0;
+}
+.journal__main > table > tbody > tr > td:last-child {
+  border-right: 0;
+}/*# sourceMappingURL=Admin.module.css.map */

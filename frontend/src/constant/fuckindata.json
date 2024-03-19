@@ -1,0 +1,242 @@
+{
+  "teachers": [
+    {
+      "name": "조재영",
+      "subject": "과학",
+      "assignedClass": "중3A",
+      "weektimetable": [
+        {
+          "day": "monday",
+          "daytimetable": [
+            { "time": "17:40", "class": "고2과" },
+            { "time": "18:25", "class": "고2과" },
+            { "time": "19:10", "class": "중2A" },
+            { "time": "19:55", "class": "중3A" },
+            { "time": "20:40", "class": "중3B" }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "daytimetable": [
+            { "time": "17:40", "class": "고1A" },
+            { "time": "18:25", "class": "고1B" },
+            { "time": "19:10", "class": "중2B" },
+            { "time": "19:55", "class": "중2A" },
+            { "time": "20:40", "class": "중3B" },
+            { "time": "21:20", "class": "중3A" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "주지영",
+      "subject": "수학",
+      "assignedClass": "중3A",
+      "weektimetable": [
+        {
+          "day": "monday",
+          "daytimetable": [
+            { "time": "17:40", "class": "고2과" },
+            { "time": "18:25", "class": "고2과" },
+            { "time": "19:10", "class": "중2A" },
+            { "time": "19:55", "class": "중3A" },
+            { "time": "20:40", "class": "중3B" }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "daytimetable": [
+            { "time": "17:40", "class": "고1A" },
+            { "time": "18:25", "class": "고1B" },
+            { "time": "19:10", "class": "중2B" },
+            { "time": "19:55", "class": "중2A" },
+            { "time": "20:40", "class": "중3B" },
+            { "time": "21:20", "class": "중3A" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "조재현",
+      "subject": "영어",
+      "assignedClass": ["중2B", "고1A", "고2C"],
+      "weektimetable": [
+        {
+          "day": "monday",
+          "daytimetable": [
+            { "time": "17:40", "class": "고2과" },
+            { "time": "18:25", "class": "고2과" },
+            { "time": "19:10", "class": "중2A" },
+            { "time": "19:55", "class": "중3A" },
+            { "time": "20:40", "class": "중3B" }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "daytimetable": [
+            { "time": "17:40", "class": "초6" },
+            { "time": "18:25", "class": "초3" },
+            { "time": "19:10", "class": "중1B" },
+            { "time": "19:55", "class": "중2A" },
+            { "time": "20:40", "class": "고2B" },
+            { "time": "21:20", "class": "고2A" }
+          ]
+        }
+      ]
+    }
+  ],
+  "journal": [
+    {
+      "date": {
+        "year": "2024",
+        "month": "3",
+        "day": "7",
+        "korDay": "목"
+      },
+      "name": "조재영",
+      "subject": "과학",
+      "punchIn": "17:00",
+      "punchOut": "22:00",
+      "main": [
+        {
+          "period": 1,
+          "class": "고1A",
+          "time": "17:40",
+          "content": "2단원 진도나감"
+        },
+        {
+          "period": 2,
+          "class": "고2A",
+          "time": "18:25",
+          "content": "1단원 진도나감"
+        },
+        {
+          "period": 3,
+          "class": "고3A",
+          "time": "19:10",
+          "content": "3단원 진도나갈까말까~"
+        }
+      ],
+      "details": "오늘 너무 힘들어서 빨리 도망가요~~^^"
+    }
+  ],
+  "classes": [
+    {
+      "types": "elementary",
+      "class": [
+        {
+          "name": "초3",
+          "teacher": [],
+          "school": [],
+          "students": []
+        },
+        {
+          "name": "초4",
+          "teacher": [],
+          "school": [],
+          "students": []
+        },
+        {
+          "name": "초5",
+          "teacher": [],
+          "school": [],
+          "students": []
+        },
+        {
+          "name": "초6",
+          "teacher": [],
+          "school": [],
+          "students": []
+        }
+      ]
+    },
+    {
+      "types": "middle",
+      "class": [
+        {
+          "name": "중1A",
+          "teacher": ["Q", "K", "B"],
+          "school": [],
+          "students": []
+        },
+        {
+          "name": "중1B",
+          "teacher": ["D", "M", "B"],
+          "school": [],
+          "students": []
+        },
+        {
+          "name": "중2A",
+          "teacher": ["Q", "K", "B"],
+          "school": ["선부", "석수"],
+          "students": []
+        },
+        {
+          "name": "중2B",
+          "teacher": ["D", "H", "B"],
+          "school": ["원일", "와동"],
+          "students": []
+        },
+        {
+          "name": "중3A",
+          "teacher": ["Q", "M", "국"],
+          "school": ["선부", "석수"],
+          "students": []
+        },
+        {
+          "name": "중3B",
+          "teacher": ["E", "H", "국"],
+          "school": ["원일", "와동"],
+          "students": []
+        }
+      ]
+    },
+    {
+      "types": "high",
+      "class": [
+        {
+          "name": "고1A",
+          "teacher": ["D", "K", "M"],
+          "school": ["강서"],
+          "students": []
+        },
+        {
+          "name": "고1B",
+          "teacher": ["Q", "K", "M"],
+          "school": ["단원", "원곡"],
+          "students": []
+        },
+        {
+          "name": "고1C",
+          "teacher": ["E", "K", "M"],
+          "school": ["선부"],
+          "students": []
+        },
+        {
+          "name": "고2A",
+          "teacher": ["D", "K"],
+          "school": ["강서"],
+          "students": []
+        },
+        {
+          "name": "고2B",
+          "teacher": ["E", "M"],
+          "school": ["단원"],
+          "students": []
+        },
+        {
+          "name": "고2C",
+          "teacher": ["Q", "H"],
+          "school": ["신길", "선부"],
+          "students": []
+        },
+        {
+          "name": "고3A",
+          "teacher": ["D", "E", "M"],
+          "school": ["강서", "선부", "원곡", "단원"],
+          "students": []
+        }
+      ]
+    }
+  ]
+}

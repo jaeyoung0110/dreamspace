@@ -1,0 +1,13 @@
+$T100: #fff;
+$T200: #eee;
+$T300: #ddd;
+$T400: #aaa;
+$T500: #666;
+$T600: #333;
+$T700: #000;
+
+@mixin setCenter {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
