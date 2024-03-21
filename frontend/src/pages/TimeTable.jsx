@@ -73,7 +73,7 @@ function TimeTable() {
       });
 
       teachers.forEach((teacher) => {
-        const subject = teacher.subject;
+        const subject = teacher.nickname;
         Object.entries(teacher.weektimetable).forEach((data) => {
           const days = data[0];
           data[1].forEach((data2) => {
