@@ -19,13 +19,13 @@
   width: 12vw;
   font-size: 1.2rem;
   font-weight: 200;
-  color: #666;
+  color: #aaa;
   text-shadow: 3px 2px 1px #eee;
   background-color: #fff;
 }
 .dayTab__btn.active {
   background-color: #ddd;
-  color: #000;
+  color: #333;
 }
 .dayTab__btn:hover {
   animation: fadeIn 500ms both;

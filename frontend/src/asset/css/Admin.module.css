@@ -29,14 +29,14 @@
   width: 70px;
   font-size: 1.1rem;
   color: #fff;
-  background-color: #aaa;
+  background-color: #bcbcbc;
   border-radius: 4px 12px 0 0;
 }
 .container .teachersTab button.active {
   border: 1px solid #ddd;
   border-bottom: 0;
   background-color: #fff;
-  color: #000;
+  color: #333;
 }
 .container .teachersTab button.inactive {
   position: relative;

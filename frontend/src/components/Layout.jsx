@@ -4,7 +4,7 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main style={{ height: '90vh' }}>{children}</main>
     </>
   );
 }

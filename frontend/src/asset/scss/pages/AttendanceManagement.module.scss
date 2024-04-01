@@ -1,0 +1,72 @@
+@import './../abstracts/variables';
+
+.container {
+  width: 80vw;
+  height: 80vh;
+  @include setCenter;
+  border-collapse: collapse;
+}
+
+.header {
+  height: 5vh;
+  .classTab {
+    height: 100%;
+    width: 80vw;
+    display: flex;
+  }
+  button {
+    height: 100%;
+    flex: 1 1 10px;
+    font-size: 1rem;
+    border-radius: 4px 12px 0 0;
+    &.active {
+      border: 1px solid $T200;
+      border-bottom: 0;
+      background-color: $T100;
+      color: $T700;
+    }
+    &.inactive {
+      position: relative;
+      top: 0.5vh;
+      height: 4.5vh;
+      border: 0.5px solid $T300;
+      border-bottom: 0;
+      color: $T100;
+      background-color: $T400;
+      &:hover {
+        animation: fadeIn 200ms both;
+      }
+    }
+  }
+}
+
+.attendance {
+  width: 100%;
+  height: 75vh;
+  border: 1px solid $T200;
+  box-shadow: 0px 0px 60px 0px $T300;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  thead {
+    border: 1px solid $T200;
+    height: 4vh;
+    th {
+      border: 1px solid $T200;
+    }
+    th:first-child {
+      width: 8%;
+    }
+    th:nth-child(2) {
+      width: 15%;
+    }
+  }
+  tbody {
+    border: 1px solid $T200;
+    th,
+    td {
+      border: 1px solid $T200;
+      text-align: center;
+    }
+  }
+}
